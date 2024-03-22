@@ -1,0 +1,41 @@
+/* General */
+footer {
+  text-align:center;
+}
+.fa-heart {
+  color: red;
+}
+.fa-briefcase {
+  color: navy;
+}
+
+/* Index */
+
+/* CV - Experience */
+.fa-phone {
+  font-size: 8px;
+}
+
+.contact {
+  text-align: center;
+}
+h1,h2 {
+  text-align: center;
+}
+
+.loc {
+  color: gray;
+  font-size: 14px;
+  text-align: end;
+}
+
+/* Blog */
+
+/* Contact */
+
+/* 403: Forbidden */
+
+.birds{
+  width:50%;
+  display:block;
+}

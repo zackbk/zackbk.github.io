@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- add metadata w3 schools -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Zinc">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Zack Kedida">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <title>Zack Kedida</title>
+    </head>
+    <body>
+        <!--navigation/header-->
+        <header class="mb-3">
+            <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-light bg-light w-12">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/jp.png" style="width:30px;" type="image/jpeg">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-
+                el="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="/index.html">Home</a>
+                        <a class="nav-item nav-link" href="/cv.html">CV<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="/blog.html">Blog</a>
+                        <a class="nav-item nav-link" href="/contact.html">Contact</a>
+                    </div>
+                    <form class="d-flex" role="search" id="searchForm" action="403.html">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchText">
+                        <button class="btn btn-outline-success" type="submit" id="searchBtn">Search</button>
+                    </form>
+                </div>
+
+                <!-- <h1 class="text-gray">Zack Kedida</h1> -->
+            </nav>
+        </header>
+
+    <!-- Reference:  Block (see: https://themes.getbootstrap.com/product/block-business-professional-template/)-->
+        <section class="my-xl-9 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="text-center mb-xl-7 mb-5 mt-3">
+                            <h2 class="h1 mb-3">Blog Coming Soon!</h2>
+                            <p class="mb-0">Personal research and life anecdotes</p>
+                        </div>
+                    </div>
+                </div>
+            <!-- filter badges-->
+                <filter class="badge rounded-pill text-bg-light text-uppercase" id="filter-0">Data Viz</filter>
+                <filter class="badge rounded-pill text-bg-light text-uppercase" id="filter-1">Finance</filter>
+                <filter class="badge rounded-pill text-bg-light text-uppercase" id="filter-2">Lifestyle</filter>
+            <!-- Blog Table -->
+                <div class="table-responsive-lg mt-5">
+                    <div class="row g-5 flex-nowrap pb-4 pb-lg-0 me-5 me-lg-0">
+                        <article class="col-lg-4 col-md-6 col-12">
+                            <figure class="mb-4 zoom-img">
+                                <a href="blogs/blog-template.html">
+                                    <img src="https://picsum.photos/300/200"
+                                        alt="blog" class="img-fluid rounded-3" />
+                                </a>
+                            </figure>
+
+                            <a href="#!"
+                                class="badge bg-primary-subtle text-primary-emphasis rounded-pill text-uppercase">Data Viz</a>
+                            <h3 class="my-3 lh-base h4">
+                                <a href="blogs/blog-template.html"
+                                    class="text-reset"> Weather Analysis </a>
+                            </h3>
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-3 mb-md-0">
+                                <div class="d-flex align-items-center">
+                                    <img src="imgs/jp.png"
+                                        alt="Avatar"
+                                        class="avatar avatar-xs rounded-circle" width="30" height="30" />
+                                    <div class="ms-2">
+                                        <a href="index.html" class="text-reset fs-6">Zack Kedida</a>
+                                    </div>
+                                </div>
+                                <div class="ms-3"><span class="fs-6">Dec 22, 2023</span></div>
+                            </div>
+                        </article>
+                    <!-- Next Card -->
+                        <article class="col-lg-4 col-md-6 col-12">
+                            <figure class="mb-4 zoom-img">
+                                <a href="blogs/blog-template.html">
+                                    <img src="https://picsum.photos/300/200"
+                                        alt="blog" class="img-fluid rounded-3" />
+                                </a>
+                            </figure>
+
+                            <a href="#!"
+                                class="badge bg-primary-subtle text-primary-emphasis rounded-pill text-uppercase">Finance</a>
+                            <h3 class="my-3 lh-base h4">
+                                <a href="blogs/blog-template.html"
+                                    class="text-reset"> Budget app </a>
+                            </h3>
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-3 mb-md-0">
+                                <div class="d-flex align-items-center">
+                                    <img src="imgs/jp.png"
+                                        alt="Avatar"
+                                        class="avatar avatar-xs rounded-circle" width="30" height="30" />
+                                    <div class="ms-2">
+                                        <a href="index.html" class="text-reset fs-6">Zack Kedida</a>
+                                    </div>
+                                </div>
+                                <div class="ms-3"><span class="fs-6">Dec 22, 2023</span></div>
+                            </div>
+                        </article>
+                    <!-- Next Card -->
+                        <article class="col-lg-4 col-md-6 col-12">
+                            <figure class="mb-4 zoom-img">
+                                <a href="blogs/blog-template.html">
+                                    <img src="https://picsum.photos/300/200"
+                                        alt="blog" class="img-fluid rounded-3" />
+                                </a>
+                            </figure>
+
+                            <a href="#!"
+                                class="badge bg-primary-subtle text-primary-emphasis rounded-pill text-uppercase">Lifestyle</a>
+                            <h3 class="my-3 lh-base h4">
+                                <a href="blogs/blog-template.html"
+                                    class="text-reset"> Wardrobe Design </a>
+                            </h3>
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-3 mb-md-0">
+                                <div class="d-flex align-items-center">
+                                    <img src="imgs/jp.png"
+                                        alt="Avatar"
+                                        class="avatar avatar-xs rounded-circle" width="30" height="30" />
+                                    <div class="ms-2">
+                                        <a href="index.html" class="text-reset fs-6">Zack Kedida</a>
+                                    </div>
+                                </div>
+                                <div class="ms-3"><span class="fs-6">Dec 22, 2023</span></div>
+                            </div>
+                        </article>
+                <!-- Next Card-->
+                    </div>
+                </div>
+        <!-- End Table-->
+            </div>
+        </section>
+
+        <footer class="border bg-white border-white">
+            <p class="text-dark">Zack Kedida <i class="fa-solid fa-blog"></i></p>
+        </footer>
+
+        <!-- scripts -->
+        <script src="scripts.js"></script>
+        <!-- bootstrap 5.3-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/7358ded8a3.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>
+
